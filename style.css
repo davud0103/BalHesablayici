@@ -16,6 +16,7 @@ h1 {
   height: 15vh;
   background-color: #535C91;
   border: none;
+  border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .choose > a > button:hover {
@@ -32,4 +33,16 @@ h1 {
   border: none;
   border-radius: 10px;
   margin-top: 2vh;
+}
+.butB {
+  background-color: #5E1675;
+  color: white;
+  width: 100px;
+  height: 5vh;
+  border: none;
+  border-radius: 10px;  
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.butB:hover {
+  background-color: #5d1675c8 ;
 }
