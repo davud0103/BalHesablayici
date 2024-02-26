@@ -1,0 +1,35 @@
+body {
+  background-color: #9290C3;
+}
+h1 {
+  text-align: center;
+}
+.choose > a {
+  text-decoration: none;
+}
+.choose{
+  display: flex;
+  flex-direction: column;
+}
+.choose > a > button {
+  width: 100vw;
+  height: 15vh;
+  background-color: #535C91;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.choose > a > button:hover {
+  background-color: #535c91be;
+}
+
+/* BALHESABLAYİCİ1 faylinin CSS-i */
+.p-B1 {
+  text-align: center;
+}
+.point-calcuator1 > input {
+  width: 30px;  
+  height: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 2vh;
+}
