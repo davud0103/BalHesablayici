@@ -1,5 +1,4 @@
-
-$(".tesdiq-button").on("click", function() {
+function pointCalcuator() {
     var umumiInput = $("#umumi-input").val();
     var duzgunInput = $("#duzgun-input").val();
     var yazilmayanInput = $("#yazilmayan-input").val();
@@ -32,6 +31,10 @@ $(".tesdiq-button").on("click", function() {
     else {
         $(".span-1").text("Səhvlik etmisiniz!");
     }
+}
+
+$(".tesdiq-button").on("click", function() {
+    pointCalcuator();
 });
 
 $(".clear-button").on("click", function(){
